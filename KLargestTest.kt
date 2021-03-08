@@ -1,5 +1,3 @@
-package com.example.myapplication
-
 import org.junit.Test
 
 import java.util.*
@@ -45,7 +43,6 @@ class KLargestTest {
             // Insert with its correct order.
             insert(ARR, ARR[i])
         }
-        // 打印第k个元素
         println("${ARR[K - 1]} with time ${System.currentTimeMillis() - startTime}")
     }
 
